@@ -40,6 +40,10 @@ a {
     -webkit-background-clip: text;
 }
 
+.leaderNameM {
+    animation:rainbowT .5s linear infinite;
+}
+
 /*No one uses these*/
 
 #aHolder, .endAHolder {
