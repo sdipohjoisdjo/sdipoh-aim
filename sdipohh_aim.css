@@ -44,6 +44,21 @@ a {
     animation:rainbowT .5s linear infinite;
 }
 
+#menuClassNameTag {
+    margin-top: -180px;
+    position: absolute;
+    text-shadow: none;
+    color: #fff;
+    z-index: 100;
+    font-size: 19px;
+    background-image: url(https://cdn.discordapp.com/attachments/636225803880890399/733142822948962356/infect_0.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position-x: 180px;
+    padding-right: 40px;
+
+    }
+
 /*No one uses these*/
 
 #aHolder, .endAHolder {
