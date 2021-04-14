@@ -43,6 +43,7 @@ a {
 .leaderNameM span[style] {
     animation: rainbowT 1.2s linear infinite;
 }
+
 .leaderNameM, .newLeaderNameM {
     animation: rainbow .5s linear infinite
 }
@@ -50,7 +51,6 @@ a {
 .menuClassPlayerClan {
     animation: rainbow 1.1s linear infinite
 }
-
 
 /*No one uses these*/
 
