@@ -98,7 +98,7 @@ a {
 #uiBase.onMenu #chatHolder {
     left: unset;
     right: 20px;
-    bottom: 440px !important;
+    top: 440px !important;
     z-index: 21;
 }
 
@@ -1361,7 +1361,6 @@ input[type=color] {
     bottom: 0;
     left: calc(50% - 420px);
     z-index: -2;
-    filter: drop-shadow(8px 4px var(--accent));
     opacity: var(--mascot-opacity);
 }
 
