@@ -48,6 +48,10 @@ a {
     animation: rainbow .5s linear infinite
 }
 
+.menuClassPlayerName {
+    animation: rainbow .5s linear infinite
+}
+
 .menuClassPlayerClan {
     animation: rainbow 1.1s linear infinite
 }
