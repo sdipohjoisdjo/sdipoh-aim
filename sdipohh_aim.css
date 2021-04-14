@@ -353,7 +353,7 @@ input:checked+.sliderSml {
     display: block;
     position: fixed;
     width: 320px;
-    left: -120px;
+    left: 120px;
     top: 48px;
     bottom: +48px;
     background-color: var(--bg-color);
