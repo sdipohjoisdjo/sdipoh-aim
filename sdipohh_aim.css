@@ -1,3 +1,4 @@
+
 /*Section I: Frame*/
 
 /*Font/Text*/
@@ -49,6 +50,7 @@ a {
 .menuClassPlayerClan {
     animation: rainbow 1.1s linear infinite
 }
+
 
 /*No one uses these*/
 
@@ -339,14 +341,7 @@ input:checked+.sliderSml {
 
 /*Menu Buttons*/
 
-#subLogoButtons {
-    position: absolute;
-    top: 80px;
-    left: 50%;
-    transform: translate(-50%, 0) scale(.95)
-}
-
-#subLogoButtons >.button {
+#subLogoButtons>.button {
     background-color: transparent !important;
     box-shadow: none !important;
     text-shadow: none !important;
@@ -652,35 +647,11 @@ div[style="display:inline-block;vertical-align:top;width:560px;margin-left:10px"
 
 /*Customizet*/
 
-@keyframes color-change {
-  0%,100%{
-    color:#ff1493;
-  }
-
-  25%{
-    color:#7fff00;
-  }
-  
-  50%{
-    color:#0091EA;
-  }
-  
-  75%{
-    color:#9400d3;
-  }
-}
-
-.menuClassPlayerName {
-    vertical-align: middle;
-    animation: color-change 2s linear infinite;
-    margin-right: 5px;
-}
-
 #menuClassContainer {
     right: calc(50% - 330px);
     transform: unset;
     top: unset;
-    bottom: 5px;
+    bottom: 10px;
 }
 
 #bubbleContainer {
@@ -702,6 +673,15 @@ div[style="display:inline-block;vertical-align:top;width:560px;margin-left:10px"
 
 #menuClassSubtext span {
     color: #fff !important;
+}
+
+#classPreviewCanvas {
+    opacity: 0;
+    transition-duration: 0.25s;
+}
+
+#menuClassContainer:hover> #classPreviewCanvas {
+    opacity: 1;
 }
 
 #customizeButton {
@@ -1045,7 +1025,7 @@ div[style="display:inline-block;vertical-align:top;width:560px;margin-left:10px"
 
 .hostMap {
     border: none;
-    height: -94px;
+    height: 94px;
     width: 232px;
 }
 
@@ -1304,6 +1284,11 @@ input[type=color] {
     display: block;
 }
 
+.terms:nth-last-child(2)::before {
+    content: "";
+    margin-right: 20px;
+}
+
 /*Section IV: HUD*/
 
 /*Health*/
@@ -1368,7 +1353,7 @@ input[type=color] {
     padding: 0;
     border-radius: 0px;
     bottom: 0;
-    left: calc(50% - 420px);
+    left: calc(50% - 385px);
     z-index: -2;
     opacity: var(--mascot-opacity);
 }
@@ -1602,7 +1587,7 @@ input[type=color] {
 }
 
 #leaderDisplay::before {
-    content: "LEADER";
+    content: "CHEATER";
     display: block;
     background-color: #000;
     color: #fff;
