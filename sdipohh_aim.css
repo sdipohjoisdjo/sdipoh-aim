@@ -1,4 +1,3 @@
-
 /*Section I: Frame*/
 
 /*Font/Text*/
@@ -44,21 +43,6 @@ a {
     animation:rainbowT .5s linear infinite;
 }
 
-#menuClassNameTag {
-    margin-top: 180px;
-    position: absolute;
-    text-shadow: none;
-    color: #fff;
-    z-index: 100;
-    font-size: 19px;
-    background-image: url(https://cdn.discordapp.com/attachments/636225803880890399/733142822948962356/infect_0.png);
-    background-size: 24px;
-    background-repeat: no-repeat;
-    background-position-x: 180px;
-    padding-right: 40px;
-
-    }
-
 /*No one uses these*/
 
 #aHolder, .endAHolder {
@@ -95,10 +79,10 @@ a {
     display: none;
 }
 
-\
+#uiBase.onMenu #chatHolder {
     left: unset;
     right: 20px;
-    top: 440px !important;
+    bottom: 440px !important;
     z-index: 21;
 }
 
@@ -657,8 +641,8 @@ div[style="display:inline-block;vertical-align:top;width:560px;margin-left:10px"
 #menuClassContainer {
     right: calc(50% - 330px);
     transform: unset;
-    top: unset;
-    bottom: 10px;
+    top: -10;
+    bottom: unset;
 }
 
 #bubbleContainer {
@@ -1224,7 +1208,7 @@ input[type=color] {
 #uiBase.onMenu #mapInfoHolder {
     padding-right: 20px;
     bottom: unset;
-    top: -100px;
+    top: 100px;
     display: block;
 }
 
@@ -1291,7 +1275,7 @@ input[type=color] {
 }
 
 .terms:nth-last-child(2)::before {
-    content: "";
+    content: "css by tae#4444";
     margin-right: 20px;
 }
 
@@ -1445,7 +1429,7 @@ input[type=color] {
 .killStreakItem {
     background-color: #000;
     position: fixed;
-    top: 20px;
+    bottom: 20px;
     left: calc(50% + 320px);
     box-shadow: 6px 6px var(--accent);
 }
@@ -1593,7 +1577,7 @@ input[type=color] {
 }
 
 #leaderDisplay::before {
-    content: "Leader";
+    content: "LEADER";
     display: block;
     background-color: #000;
     color: #fff;
