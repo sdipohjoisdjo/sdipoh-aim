@@ -502,8 +502,8 @@ input:checked+.sliderSml {
     width: calc(100% - 800px) !important;
     border-radius: 0;
     box-shadow: none;
-    top: 100px;
-    bottom: 144px;
+    top: 144px;
+    bottom: 100px;
     border: 0;
     left: unset;
     right: 320px;
