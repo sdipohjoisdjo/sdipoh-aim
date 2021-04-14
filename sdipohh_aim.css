@@ -343,7 +343,7 @@ input:checked+.sliderSml {
 
 #menuItemContainer {
     top: 280px;
-    bottom: -240px;
+    bottom: 240px;
     z-index: 3;
     justify-content: space-between;
 }
@@ -354,7 +354,7 @@ input:checked+.sliderSml {
     position: fixed;
     width: 320px;
     left: -120px;
-    top: -48px;
+    top: 48px;
     bottom: +48px;
     background-color: var(--bg-color);
     transform: rotateZ(4deg);
