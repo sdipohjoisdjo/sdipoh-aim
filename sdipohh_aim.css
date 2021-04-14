@@ -1224,7 +1224,7 @@ input[type=color] {
 #uiBase.onMenu #mapInfoHolder {
     padding-right: 20px;
     bottom: unset;
-    top: 100px;
+    top: -100px;
     display: block;
 }
 
