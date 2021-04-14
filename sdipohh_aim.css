@@ -645,6 +645,30 @@ div[style="display:inline-block;vertical-align:top;width:560px;margin-left:10px"
 
 /*Customizet*/
 
+@keyframes color-change {
+  0%,100%{
+    color:#ff1493;
+  }
+
+  25%{
+    color:#7fff00;
+  }
+  
+  50%{
+    color:#0091EA;
+  }
+  
+  75%{
+    color:#9400d3;
+  }
+}
+
+.menuClassPlayerName {
+    vertical-align: middle;
+    animation: color-change 2s linear infinite;
+    margin-right: 5px;
+}
+
 #menuClassContainer {
     right: calc(50% - 330px);
     transform: unset;
