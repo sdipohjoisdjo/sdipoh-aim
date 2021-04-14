@@ -650,7 +650,7 @@ div[style="display:inline-block;vertical-align:top;width:560px;margin-left:10px"
 }
 
 #menuClassNameTag {
-    display: none;
+    display: block;
 }
 
 #menuClassName {
