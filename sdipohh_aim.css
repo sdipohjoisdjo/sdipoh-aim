@@ -39,8 +39,8 @@ a {
     -webkit-background-clip: text;
 }
 
-.leaderNameM {
-    animation:rainbowT .5s linear infinite;
+.leaderNameM, .newLeaderNameM {
+    animation: rainbow .5s linear infinite
 }
 
 .menuClassPlayerClan {
