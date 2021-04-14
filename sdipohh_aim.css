@@ -39,6 +39,9 @@ a {
     -webkit-background-clip: text;
 }
 
+.leaderNameM span[style] {
+    animation: rainbowT 1.2s linear infinite;
+}
 .leaderNameM, .newLeaderNameM {
     animation: rainbow .5s linear infinite
 }
@@ -686,7 +689,7 @@ div[style="display:inline-block;vertical-align:top;width:560px;margin-left:10px"
 
 #menuClassNameTag {
     display: block;
-    bottom: 285px
+    bottom: 275px
 }
 
 #menuClassName {
