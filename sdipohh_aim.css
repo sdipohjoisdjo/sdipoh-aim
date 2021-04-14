@@ -1274,11 +1274,6 @@ input[type=color] {
     display: block;
 }
 
-.terms:nth-last-child(2)::before {
-    content: "css by tae#4444";
-    margin-right: 20px;
-}
-
 /*Section IV: HUD*/
 
 /*Health*/
