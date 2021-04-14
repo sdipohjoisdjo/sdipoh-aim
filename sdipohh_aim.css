@@ -43,6 +43,10 @@ a {
     animation:rainbowT .5s linear infinite;
 }
 
+.menuClassPlayerClan {
+    animation: rainbow 1.1s linear infinite
+}
+
 /*No one uses these*/
 
 #aHolder, .endAHolder {
