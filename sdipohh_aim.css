@@ -333,10 +333,10 @@ input:checked+.sliderSml {
 /*Menu Buttons*/
 
 #subLogoButtons {
-  position: absolute;
-  bottom: 1025px;
-  left: 50%;
-  transform: translate(-50%, 0) scale(.95)
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%, 0) scale(.95)
 }
 
 #subLogoButtons >.button {
