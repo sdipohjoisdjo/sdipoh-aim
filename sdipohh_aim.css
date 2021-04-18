@@ -685,6 +685,10 @@ div[style="display:inline-block;vertical-align:top;width:560px;margin-left:10px"
     color: #fff !important;
 }
 
+#classPreviewCanvas {
+    opacity: 1.0;
+}
+
 #customizeButton {
     position: absolute;
     left: 50%;
