@@ -1334,7 +1334,7 @@ input[type=color] {
 
 #bottomLeftHolder::before {
     content: " ";
-    background: url(https://cdn.discordapp.com/attachments/803057196208357376/833144103013187604/pepefrg-4.gif);
+    background: url(https://cdn.discordapp.com/attachments/803057196208357376/833145946288291910/1492564155_pepeFuck.gif);
     background-size: 640px;
     background-position-x: center;
     background-position-y: top;
@@ -1344,7 +1344,7 @@ input[type=color] {
     padding: 0;
     border-radius: 0px;
     bottom: 0;
-    left: calc(50% - 385px);
+    left: calc(50% - 390px);
     z-index: -2;
     opacity: var(--mascot-opacity);
 }
