@@ -1342,11 +1342,11 @@ input[type=color] {
 #bottomLeftHolder::before {
     content: " ";
     background: url(https://cdn.discordapp.com/attachments/803057196208357376/833145946288291910/1492564155_pepeFuck.gif);
-    background-size: 640px;
+    background-size: 500px;
     background-position-x: center;
     background-position-y: top;
-    width: 240px;
-    height: 240px;
+    width: 340px;
+    height: 340px;
     position: fixed;
     padding: 0;
     border-radius: 0px;
