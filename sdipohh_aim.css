@@ -690,10 +690,6 @@ div[style="display:inline-block;vertical-align:top;width:560px;margin-left:10px"
     transition-duration: 0.25s;
 }
 
-#menuClassContainer:hover> #classPreviewCanvas {
-    opacity: 1;
-}
-
 #customizeButton {
     position: absolute;
     left: 50%;
