@@ -1342,18 +1342,18 @@ input[type=color] {
 }
 
 #bottomLeftHolder::before {
-    content: "https://cdn.discordapp.com/attachments/803057196208357376/833173437019062272/309.gif";
-    background: url();
-    background-size: 500px;
+    content: " ";
+    background: url(https://cdn.discordapp.com/attachments/690648382255136828/830277509396299866/letsssssssssss_go.gif);
+    background-size: 640px;
     background-position-x: center;
     background-position-y: top;
-    width: 500px;
-    height: 500px;
+    width: 320px;
+    height: 320px;
     position: fixed;
     padding: 0;
     border-radius: 0px;
     bottom: 0;
-    left: calc(50% - 405px);
+    left: calc(50% - 375px);
     z-index: -2;
     opacity: var(--mascot-opacity);
 }
