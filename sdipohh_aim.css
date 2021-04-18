@@ -1341,17 +1341,17 @@ input[type=color] {
 
 #bottomLeftHolder::before {
     content: " ";
-    background: url(https://cdn.discordapp.com/attachments/690648382255136828/830277509396299866/letsssssssssss_go.gif;
+    background: url(https://cdn.discordapp.com/attachments/690648382255136828/830277509396299866/letsssssssssss_go.gif);
     background-size: 640px;
     background-position-x: center;
     background-position-y: top;
     width: 320px;
-    height: 320x;
+    height: 320px;
     position: fixed;
     padding: 0;
     border-radius: 0px;
     bottom: 0;
-    left: calc(50% - 380px);
+    left: calc(50% - 375px);
     z-index: -2;
     opacity: var(--mascot-opacity);
 }
