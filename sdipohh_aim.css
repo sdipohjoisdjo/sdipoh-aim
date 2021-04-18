@@ -685,11 +685,6 @@ div[style="display:inline-block;vertical-align:top;width:560px;margin-left:10px"
     color: #fff !important;
 }
 
-#classPreviewCanvas {
-    opacity: 0;
-    transition-duration: 0.25s;
-}
-
 #customizeButton {
     position: absolute;
     left: 50%;
@@ -1350,7 +1345,7 @@ input[type=color] {
     padding: 0;
     border-radius: 0px;
     bottom: 0;
-    left: calc(50% - 390px);
+    left: calc(50% - 405px);
     z-index: -2;
     opacity: var(--mascot-opacity);
 }
